@@ -1,0 +1,89 @@
+  header{
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+  /*logo et menu nav*/
+   #en-tête
+   {
+       display: flex;
+       justify-content: space-between;
+      
+   }
+   #en-tête img{
+       height: 50px;
+   }
+   /*lien ancre page*/
+   nav{
+       display: flex;/*definir le nav comme un conteneur flex*/
+       justify-content: space-between; /*espace entre les deux lien du nav*/
+       font-size: 10px; /*taille du texte dans le nav*/
+       align-items: center;
+   }
+   /*lien ancre page activer*/
+   nav a.active
+   {
+       border-top: #0065fc solid 2px;
+       color: #0065fc;
+       font-weight: bold;
+   }
+   nav a{
+       padding: 30px 20px 30px 20px;
+   }
+   /*menu filtres mise en forme*/
+   #filtres
+   {
+       display: flex;
+       margin-top: 10px;/*définir une marge entre le future formulaire et les filtres*/
+       justify-content: space-around;
+       width: 75%;
+       align-items: center;
+   }
+   /*lien filtre bloc paragraphe*/
+   #filtres p
+   {
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+         width: 80%;
+   }
+     /*lien filtre*/
+   #filtres p a
+   {
+       border: solid 2px #f2f2f2;
+       border-radius: 30px;
+       padding: 10px;
+       position: relative;
+height: 40px;
+padding-left: 40px;
+   }
+   #filtres>p>a>i{
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 38px;
+    height: 38px;
+   }
+   /*lien filtre au survol*/
+   #filtres p a:hover
+   {
+    color: #0065fc;
+    border: solid 1px rgb(183, 0, 255);
+    border-radius: 5px;
+   }
+ 
+   
+   #infos
+   {
+       margin-top: 10px;
+   }
+ i
+ {
+    background-color: #deebff;
+    padding: 5px;
+    color: #0065fc;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px !important;
+ }
