@@ -12,6 +12,15 @@ h1{
     margin: 0px;/*annuler les marge automatiques*/
     font-weight: bold;
 }
+h2{
+    font-size: 15px;
+    font-weight: bold;
+}
+h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px;
+}
 /*taille mise en forme des paragraphe*/
 p
 {
